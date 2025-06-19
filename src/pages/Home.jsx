@@ -109,7 +109,7 @@ export default function Home() {
             contacts.map((contact) => (
               <div
                 key={contact.id}
-                className="flex items-center justify-between rounded border-dashed border p-3"
+                className="flex items-center justify-between rounded border border-dashed p-3"
               >
                 <div>
                   <h3 className="font-medium">{contact.name}</h3>
